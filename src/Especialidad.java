@@ -1,2 +1,10 @@
-public class Especialidad {
+enum Especialidad {
+    CARDIOLOGIA,
+    TRAUMATOLOGIA,
+    PEDIATRIA,
+    NEUROLOGIA,
+    DERMATOLOGIA,
+    OFTALMOLOGIA,
+    OTORRINOLARINGOLOGIA,
+    MEDICINA_GENERAL
 }

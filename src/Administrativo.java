@@ -1,2 +1,3 @@
-public class Administrativo {
+public class Administrativo extends Usuario{
+    private String idAdministrativo;
 }

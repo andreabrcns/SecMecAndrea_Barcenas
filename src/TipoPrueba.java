@@ -1,2 +1,9 @@
-public class TipoPrueba {
+enum TipoPrueba {
+    RADIOGRAFIA,
+    ANALISIS_SANGRE,
+    RESONANCIA,
+    ECOGRAFIA,
+    TAC,
+    ELECTROCARDIOGRAMA,
+    PRUEBA_ESFUERZO
 }

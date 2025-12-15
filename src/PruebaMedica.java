@@ -1,2 +1,4 @@
-public class PruebaMedica {
+public class PruebaMedica extends EntradaHistorial {
+    private TipoPrueba tipoPrueba;
+    private String resultado;
 }

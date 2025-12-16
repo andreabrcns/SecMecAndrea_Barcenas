@@ -8,6 +8,10 @@ public class Paciente extends Persona{
         this.medicoAsignado = medicoAsignado;
     }
 
+    public Paciente(String nombre, String dni, String email, String direccion) {
+        super(nombre, dni, email, direccion);
+    }
+
     public Medico getMedicoAsignado() {
         return medicoAsignado;
     }

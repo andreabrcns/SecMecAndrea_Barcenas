@@ -1,4 +1,4 @@
-# 🏥 Sistema de Gestión Hospitalaria
+# Sistema de Gestión Hospitalaria
 
 Sistema de gestión médica desarrollado en Java que permite administrar pacientes, médicos, historiales clínicos y pruebas médicas siguiendo el patrón arquitectónico Modelo-Vista-Controlador (MVC).
 

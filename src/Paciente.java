@@ -2,15 +2,15 @@ public class Paciente extends Persona{
     private HistorialMedico historial;
     private Medico medicoAsignado;
 
-    public Paciente(String nombre, String dni, String email, String direccion, HistorialMedico historial, Medico medicoAsignado) {
-        super(nombre, dni, email, direccion);
-        this.historial = historial;
-        this.medicoAsignado = medicoAsignado;
-    }
-
     public Paciente(String nombre, String dni, String email, String direccion) {
         super(nombre, dni, email, direccion);
+        this.historial = new HistorialMedico();
+//        this.medicoAsignado = medicoAsignado;
     }
+
+//    public Paciente(String nombre, String dni, String email, String direccion) {
+//        super(nombre, dni, email, direccion);
+//    }
 
     public Medico getMedicoAsignado() {
         return medicoAsignado;

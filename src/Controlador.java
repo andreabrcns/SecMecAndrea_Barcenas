@@ -57,7 +57,7 @@ public class Controlador {
                 LocalDate.now(),
                 testMedico1.getNumeroColegiado(),
                 "Dolor de pecho al respirar",
-                TipoPrueba.PRUEBA_ESFUERZO,
+                TipoPrueba.TAC,
                 "Infección en los pulmones"
         );
 
@@ -70,13 +70,13 @@ public class Controlador {
 
         // Admin asigna pruebas médicas
         testAdmin1.asignarPrueba(testPaciente1, testPruebaMedica1);
-        miVista.imprimir("\nAdministrativo ha asignado prueba médica...");
+        miVista.imprimir("\nAdministrativo 1 ha asignado una prueba médica...");
 
         // Imprimo historial de Paciente
-        miVista.imprimir("\nMédico realiza pruebas...");
+        miVista.imprimir("\nEl médico realiza las pruebas...");
         miVista.imprimir(testPruebaMedica1.toString());
 
-        miVista.imprimir("\nMédico receta en base al resultado de las pruebas...");
+        miVista.imprimir("\nEl médico receta en base al resultado de las pruebas...");
         miVista.imprimir(testReceta1.toString());
 
         // Agregar receta al historial también

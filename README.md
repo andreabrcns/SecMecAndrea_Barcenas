@@ -67,6 +67,3 @@ Receta - Fecha: 2024-12-16, Causa: Dolor de pecho al respirar, Medicamentos: [An
 
 Historial completo del paciente
 Objeto HistorialMedico { entradas = '[Prueba Médica - ..., Receta - ...]'}
-
-
-⭐ Si este proyecto te resulta útil, no olvides darle una estrella en GitHub!

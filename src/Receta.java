@@ -8,4 +8,17 @@ public class Receta extends EntradaHistorial {
         super(fecha, idMedico, causa);
         this.medicamentos = medicamentos;
     }
+
+    public String getMedicamentos() {
+        return String.join(", ", medicamentos);
+    }
+    @Override
+    public String getTipo() { return "Receta"; }
+
+    @Override
+    public String toString() {
+        return getTipo() + " - Fecha: " + fecha +
+                ", Causa: " + causa +
+                ", Medicamentos: [" + getMedicamentos() + "]";
+    }
 }

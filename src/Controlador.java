@@ -1,13 +1,36 @@
 import java.time.LocalDate;
 import java.util.Arrays;
-
+/**
+ * Controlador principal de la aplicación siguiendo el patrón MVC.
+ * <p>
+ * Esta clase actúa como intermediario entre el modelo (entidades) y la vista,
+ * gestionando la lógica de negocio y el flujo de la aplicación. Se encarga de
+ * coordinar la creación de usuarios, pacientes, asignación de médicos y gestión
+ * de historiales médicos.
+ * </p>
+ *
+ * @author Andrea Barcenas
+ * @version 1.0
+ */
 public class Controlador {
 
     /**
-     * Inicia la simulación.
-     * Crea instancias de administrativos, médicos y pacientes, estableciendo
-     * las relaciones entre ellos, realizando pruebas y mostrando el resultado
-     * a través de la vista.
+     * Inicia la simulación del sistema hospitalario.
+     * <p>
+     * Este método ejecuta un flujo completo de prueba que incluye:
+     * </p>
+     * <ul>
+     *   <li>Creación de un administrativo y un médico</li>
+     *   <li>Registro de un nuevo paciente</li>
+     *   <li>Asignación del médico al paciente</li>
+     *   <li>Registro de pruebas médicas en el historial</li>
+     *   <li>Emisión de recetas médicas</li>
+     *   <li>Visualización del historial médico completo</li>
+     * </ul>
+     * <p>
+     * Todos los mensajes y resultados se muestran a través de la vista,
+     * manteniendo la separación de responsabilidades del patrón MVC.
+     * </p>
      */
     public void iniciar() {
         Vista miVista = new Vista();

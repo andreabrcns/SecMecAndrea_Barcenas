@@ -65,10 +65,8 @@ Prueba Médica - Fecha: 2024-12-16, Tipo: TAC, Causa: Dolor de pecho al respirar
 El médico receta en base al resultado de las pruebas...
 Receta - Fecha: 2024-12-16, Causa: Dolor de pecho al respirar, Medicamentos: [Antibiótico para la infección, Ibuprofeno 500mg]
 
---- Historial completo del paciente ---
-Objeto HistorialMedico {
- entradas = '[Prueba Médica - ..., Receta - ...]'
-}
----
+Historial completo del paciente
+Objeto HistorialMedico { entradas = '[Prueba Médica - ..., Receta - ...]'}
+
 
 ⭐ Si este proyecto te resulta útil, no olvides darle una estrella en GitHub!
